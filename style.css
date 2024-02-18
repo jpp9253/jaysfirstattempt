@@ -1,0 +1,121 @@
+.rochester-regular {
+    font-family: "Rochester", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body
+{
+    background-color: rgb(255, 204, 220)
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 250px;
+    font-family: "Rochester", cursive;
+    padding-top: 15vh;
+    color: white;
+    -webkit-text-stroke: 0.5px navy;
+}
+
+.care
+{
+    padding-top: 10vh;
+    text-align: center;
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 130px;
+    padding-bottom: -10vh;
+}
+
+.short ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    grid-gap: 10px; /* Optional: Add gap between images */
+}
+
+.short .image {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    width: 50%; /* Set width to 100% to ensure equal width for all images */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure images don't exceed their original width */
+    max-height: 100%; /* Ensure images don't exceed their original height */
+}
+
+
+
+.watch
+{
+    text-align: center;
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 130px;
+    padding-bottom: -10vh;
+}
+
+#moon
+{
+    scale: 30%;
+}
+
+#health
+{
+    padding-top: 7vh;
+}
+
+.video
+{
+    text-align: center;
+    
+}
+
+#source
+{
+    border: 30px solid #fff;
+}
+
+ul {
+    padding: 0;
+    margin: 50px 20px;
+    list-style: none;
+    
+}
+ul li {
+    margin: 5px;
+}
+ul li a {
+    padding: 5px;
+}
+ul li a img {
+    width: 125px;
+    height: 125px;
+    transition: 0.3s all ease;
+}
+ul li a:hover img {
+    transform: scale(1.5);
+}
+
+.tips
+{
+    text-align: center;
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 130px;
+    padding-bottom: -10vh;
+}
+
+.tips1
+{
+    padding-top: -10vh;
+    text-align: center;
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+}
